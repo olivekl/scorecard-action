@@ -31,8 +31,8 @@ inputs:
     description: "INPUT: GitHub token with read access"
     required: True
 
-  badge_support:
-    description: "INPUT: Turn on support for Scorecard badges"
+  publish_result:
+    description: "INPUT: Publish results"
     required: false
 
 branding:
