@@ -23,7 +23,7 @@
 #           laurentsimon/scorecard-action:latest
 
 #v1.19 go
-FROM golang:1.19.3@sha256:dc76ef03e54c34a00dcdca81e55c242d24b34d231637776c4bb5c1a8e8514253 AS builder
+FROM golang:1.19.5@sha256:a13017d1a98f73fa41ed5808bace20a98d7394d3fdcb0e338e189ee36f96b46d AS builder
 WORKDIR /src
 ENV CGO_ENABLED=0
 COPY go.* ./
